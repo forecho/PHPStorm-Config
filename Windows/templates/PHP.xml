@@ -15,4 +15,18 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="if?" value="$retVal = ($ITERABLE$) ? $A$ : $B$ ;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="A" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="B" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ife" value="if ($ITERABLE$) {&#10;    // code...&#10;} else {&#10;    // code...&#10;}" description="ifelse" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>

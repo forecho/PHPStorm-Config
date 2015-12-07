@@ -47,7 +47,7 @@ ife
 fore
 
 ```html
-<?php foreach ($ITERABLE$ as $VAR_KEY$ => $VAR_VALUE$): ?>
+<?php foreach ($ITERABLE$ as $key => $value): ?>
                         
 <?php endforeach ?>
 ```
@@ -90,11 +90,27 @@ try {
 } 
 ```
 
-
 prd
 
 ```
 print_r("$END$");die;
+```
+
+if?
+
+```
+$retVal = ($ITERABLE$) ? $A$ : $B$ ;
+```
+
+
+ife
+
+```
+if ($ITERABLE$) {
+    // code...
+} else {
+    // code...
+}
 ```
 
 
