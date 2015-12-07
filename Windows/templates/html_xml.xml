@@ -1,0 +1,40 @@
+<templateSet group="html/xml">
+  <template name="fore" value="&lt;?php foreach ($ITERABLE$ as $VAR_KEY$ =&gt; $VAR_VALUE$): ?&gt;&#10;                        &#10;&lt;?php endforeach ?&gt;" description="foreach" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="if" value="&lt;?php if ($ITERABLE$): ?&gt;&#10;                        &#10;&lt;?php endif ?&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ife" value="&lt;?php if ($ITERABLE$): ?&gt;&#10;                        &#10;&lt;?php else: ?&gt;&#10;    &#10;&lt;?php endif ?&gt;" description="if else" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="php" value="&lt;?php $ITERABLE$ ?&gt;" description="&lt;?php ?&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="phpe" value="&lt;?php echo $ITERABLE$ ?&gt;" description="&lt;?php echo ?&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
