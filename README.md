@@ -24,7 +24,7 @@
 代码片段
 
 
-** HTML **
+**HTML**
 
 if
 
@@ -33,7 +33,6 @@ if
                         
 <?php endif ?>
 ```
-
 
 ife
 
@@ -53,7 +52,6 @@ fore
 <?php endforeach ?>
 ```
 
-
 php
 
 ```html
@@ -66,7 +64,7 @@ phpe
 <?php echo $ITERABLE$ ?>
 ```
 
-** PHP **
+**PHP**
 
 sw
 
