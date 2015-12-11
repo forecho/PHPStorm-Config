@@ -64,6 +64,19 @@ phpe
 <?php echo $ITERABLE$ ?>
 ```
 
+<?
+
+```html
+<? $ITERABLE$ ?>
+```
+
+<?=
+
+```html
+<? $ITERABLE$ ?>
+```
+
+
 **PHP**
 
 sw

@@ -35,4 +35,18 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="&lt;?" value="&lt;? $ITERABLE$ ?&gt;" description="&lt;? ?&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;?=" value="&lt;?= $ITERABLE$ ?&gt;" description="&lt;?= ?&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
