@@ -126,6 +126,13 @@ if ($ITERABLE$) {
 }
 ```
 
+fun
+
+```
+public function $NAME$($PARAMETERS$){
+    $END$
+}
+```
 
 ## 文件夹说明
 
