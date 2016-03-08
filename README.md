@@ -30,7 +30,7 @@ if
 
 ```html
 <?php if ($ITERABLE$): ?>
-                        
+
 <?php endif ?>
 ```
 
@@ -38,9 +38,9 @@ ife
 
 ```html
 <?php if ($ITERABLE$): ?>
-                        
+
 <?php else: ?>
-    
+
 <?php endif ?>
 ```
 
@@ -48,7 +48,7 @@ fore
 
 ```html
 <?php foreach ($ITERABLE$ as $key => $value): ?>
-                        
+
 <?php endforeach ?>
 ```
 
@@ -86,7 +86,7 @@ switch ($ITERABLE$) {
     case 'value':
         # code...
         break;
-    
+
     default:
         # code...
         break;
@@ -97,10 +97,10 @@ try
 
 ```
 try {
-                        
+
 } catch (Exception $e) {
-    
-} 
+
+}
 ```
 
 prd
@@ -136,5 +136,10 @@ public function $NAME$($PARAMETERS$){
 
 ## 文件夹说明
 
-Windows 文件夹代表是 Windows 版的 PHPStorm ，此版本是 10。
+Windows 文件夹代表是 Windows 7 系统版的 PHPStorm ，此版本是 10。
 把 Windows 文件夹里面的文件夹放在 `C:\Users\Administrator\.WebIde100\config` 目录下。
+
+Mac 文件夹代表是 Mac 系统版的 PHPStorm ，此版本是 10。
+把 Mac 文件夹里面的文件夹放在 `~/Library/Preferences/WebIdeXX` 目录下。
+
+PS：templates 文件夹可以通用，亲测。
