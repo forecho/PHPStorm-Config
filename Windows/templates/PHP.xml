@@ -36,4 +36,18 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="sfun" value="public static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="public static function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fori" value="for ($i=0; $i &lt; $N$; $i++) { &#10;    $ITERABLE$&#10;}" description="for i" toReformat="true" toShortenFQNames="true">
+    <variable name="N" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>

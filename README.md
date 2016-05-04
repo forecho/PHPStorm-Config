@@ -134,6 +134,23 @@ public function $NAME$($PARAMETERS$){
 }
 ```
 
+sfun
+
+```
+public static function $NAME$($PARAMETERS$){
+    $END$
+}
+```
+
+fori
+
+```
+for ($i=0; $i < $N$; $i++) { 
+    $ITERABLE$
+}
+```
+
+
 ## 文件夹说明
 
 Windows 文件夹代表是 Windows 7 系统版的 PHPStorm ，此版本是 10。
