@@ -159,4 +159,6 @@ Windows 文件夹代表是 Windows 7 系统版的 PHPStorm ，此版本是 10。
 Mac 文件夹代表是 Mac 系统版的 PHPStorm ，此版本是 10。
 把 Mac 文件夹里面的文件夹放在 `~/Library/Preferences/WebIdeXX` 目录下。
 
+然后你要修改编辑器的配置，应用快捷键 `Default copy`， 点击保存。
+
 PS：templates 文件夹可以通用，亲测。
